@@ -1,0 +1,439 @@
+[    2.687371] systemd[1]: Reached target Local File Systems.
+[[32m  OK  [0m] Reached target Local File Systems.
+[    2.696353] systemd[1]: Reached target Swap.
+[[32m  OK  [0m] Reached target Swap.
+[    2.703951] systemd[1]: Created slice Root Slice.
+[[32m  OK  [0m] Created slice Root Slice.
+[[32m  OK  [0m] Listening on udev Control Socket.
+[[32m  OK  [0m] Started Dispatch Password Requests to Console Directory Watch.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Listening on udev Kernel Socket.
+[[32m  OK  [0m] Reached target Timers.
+[[32m  OK  [0m] Created slice System Slice.
+[[32m  OK  [0m] Reached target Slices.
+[[32m  OK  [0m] Listening on Journal Socket.
+         Starting Journal Service...
+[[32m  OK  [0m] Reached target Sockets.
+         Starting Create list of required st... nodes for the current kernel...
+         Starting Apply Kernel Variables...
+[[32m  OK  [0m] Started Journal Service.
+[[32m  OK  [0m] Started Create list of required sta...ce nodes for the current kernel.
+[[32m  OK  [0m] Started Apply Kernel Variables.
+         Starting Create Static Device Nodes in /dev...
+[[32m  OK  [0m] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[[32m  OK  [0m] Started udev Kernel Device Manager.
+         Starting dracut pre-trigger hook...
+[[32m  OK  [0m] Started dracut pre-trigger hook.
+         Starting udev Coldplug all Devices...
+[[32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting dracut initqueue hook...
+[[32m  OK  [0m] Reached target System Initialization.
+[[32m  OK  [0m] Reached target Basic System.
+[[32m  OK  [0m] Found device /dev/disk/by-uuid/47834bf7-764e-42f9-9507-11a3e70b99de.
+[    3.019508] SCSI subsystem initialized
+         Starting File System Check on /dev/...7-764e-42f9-9507-11a3e70b99de...
+[[32m  OK  [0m] Started File System Check on /dev/d...bf7-764e-42f9-9507-11a3e70b99de.
+[    3.052060] scsi host0: ata_piix
+[    3.057284] scsi host1: ata_piix
+[    3.062303] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc100 irq 14
+[    3.070874] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc108 irq 15
+[[32m  OK  [0m] Started dracut initqueue hook.
+[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[32m  OK  [0m] Reached target Remote File Systems.
+         Mounting /sysroot...
+[    3.280272] XFS (xvda1): Mounting V5 Filesystem
+[    3.550150] XFS (xvda1): Ending clean mount
+[[32m  OK  [0m] Mounted /sysroot.
+[[32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[32m  OK  [0m] Reached target Initrd File Systems.
+[[32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+[[32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[32m  OK  [0m] Stopped target Remote File Systems.
+[[32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[32m  OK  [0m] Stopped dracut initqueue hook.
+[[32m  OK  [0m] Stopped target Timers.
+[[32m  OK  [0m] Stopped target Initrd Default Target.
+[[32m  OK  [0m] Stopped target Basic System.
+[[32m  OK  [0m] Stopped target System Initialization.
+[[32m  OK  [0m] Stopped target Local File Systems.
+[[32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[32m  OK  [0m] Stopped target Sockets.
+[[32m  OK  [0m] Stopped Apply Kernel Variables.
+[[32m  OK  [0m] Stopped target Swap.
+[[32m  OK  [0m] Stopped dracut pre-trigger hook.
+         Stopping udev Kernel Device Manager...
+[[32m  OK  [0m] Stopped target Slices.
+[[32m  OK  [0m] Stopped target Paths.
+[[32m  OK  [0m] Stopped Dispatch Password Requests to Console Directory Watch.
+[[32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[32m  OK  [0m] Stopped Create list of required sta...ce nodes for the current kernel.
+[[32m  OK  [0m] Closed udev Control Socket.
+[[32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[32m  OK  [0m] Started Cleanup udevd DB.
+[[32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+[    3.841902] systemd-journald[1023]: Received SIGTERM from PID 1 (systemd).
+[    3.859357] printk: systemd: 13 output lines suppressed due to ratelimiting
+[    4.053912] SELinux:  Runtime disable is deprecated, use selinux=0 on the kernel cmdline.
+[    4.060003] SELinux:  Disabled at runtime.
+[    4.072456] audit: type=1404 audit(1673033566.220:2): enforcing=0 old_enforcing=0 auid=4294967295 ses=4294967295 enabled=0 old-enabled=1 lsm=selinux res=1
+
+Welcome to [0;33mAmazon Linux 2[0m!
+
+[[32m  OK  [0m] Stopped Switch Root.
+[[32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+[[32m  OK  [0m] Created slice system-getty.slice.
+[[32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+[[32m  OK  [0m] Listening on Delayed Shutdown Socket.
+[[32m  OK  [0m] Created slice system-selinux\x2dpol...grate\x2dlocal\x2dchanges.slice.
+         Mounting Huge Pages File System...
+[[32m  OK  [0m] Listening on LVM2 metadata daemon socket.
+         Mounting POSIX Message Queue File System...
+[[32m  OK  [0m] Created slice User and Session Slice.
+[[32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+         Starting Monitoring of LVM2 mirrors... dmeventd or progress polling...
+[[32m  OK  [0m] Listening on udev Control Socket.
+         Mounting Debug File System...
+         Starting Read and set NIS domainname from /etc/sysconfig/network...
+         Starting Create list of required st... nodes for the current kernel...
+[[32m  OK  [0m] Stopped target Switch Root.
+[[32m  OK  [0m] Reached target Swap.
+[[32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[32m  OK  [0m] Stopped target Initrd Root File System.
+[[32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[32m  OK  [0m] Listening on udev Kernel Socket.
+[[32m  OK  [0m] Set up automount Arbitrary Executab...ats File System Automount Point.
+[[32m  OK  [0m] Listening on /dev/initctl Compatibility Named Pipe.
+         Starting Remount Root and Kernel File Systems...
+[[32m  OK  [0m] Reached target Slices.
+[[32m  OK  [0m] Stopped target Initrd File Systems.
+         Starting Setup Virtual Console...
+[[32m  OK  [0m] Mounted Debug File System.
+[[32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[32m  OK  [0m] Mounted Huge Pages File System.
+[[32m  OK  [0m] Started Journal Service.
+[    4.531778] xfs filesystem being remounted at / supports timestamps until 2038 (0x7fffffff)
+[[32m  OK  [0m] Started Read and set NIS domainname from /etc/sysconfig/network.
+[[32m  OK  [0m] Started Create list of required sta...ce nodes for the current kernel.
+[[32m  OK  [0m] Started Remount Root and Kernel File Systems.
+[[32m  OK  [0m] Started Setup Virtual Console.
+[[32m  OK  [0m] Started LVM2 metadata daemon.
+         Starting Configure read-only root support...
+         Starting Rebuild Hardware Database...
+         Starting Load Kernel Modules...
+         Starting Create Static Device Nodes in /dev...
+         Starting Flush Journal to Persistent Storage...
+[[32m  OK  [0m] Started Configure read-only root support.
+[[32m  OK  [0m] Started Load Kernel Modules.
+[[32m  OK  [0m] Started Create Static Device Nodes in /dev.
+[    4.649817] systemd-journald[1775]: Received request to flush runtime journal from PID 1
+         Starting udev Kernel Device Manager...
+         Starting Apply Kernel Variables...
+         Starting Load/Save Random Seed...
+[[32m  OK  [0m] Started Load/Save Random Seed.
+[[32m  OK  [0m] Started Apply Kernel Variables.
+[[32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[32m  OK  [0m] Started udev Kernel Device Manager.
+[[32m  OK  [0m] Started Rebuild Hardware Database.
+         Starting udev Coldplug all Devices...
+[    5.045907] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[[32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting Show Plymouth Boot Screen...
+         Starting udev Wait for Complete Device Initialization...
+[    5.108558] ACPI: Power Button [PWRF]
+[    5.113277] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4
+[[32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[    5.181376] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+[[32m  OK  [0m] Found device /dev/ttyS0.
+[    5.222854] ACPI: Sleep Button [SLPF]
+[    5.229641] mousedev: PS/2 mouse device common for all mice
+%G[    5.255738] cryptd: max_cpu_qlen set to 1000
+[[32m  OK  [0m] Created slice system-ec2net\x2difup.slice.
+[    5.278963] AVX2 version of gcm_enc/dec engaged.
+[    5.282579] AES CTR mode by8 optimization enabled
+[[32m  OK  [0m] Found device /sys/subsystem/net/devices/eth0.
+[[32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+         Starting Activation of DM RAID sets...
+[    5.360435] device-mapper: uevent: version 1.0.3
+[    5.366038] device-mapper: ioctl: 4.43.0-ioctl (2020-10-01) initialised: dm-devel@redhat.com
+[[32m  OK  [0m] Started Activation of DM RAID sets.
+[[32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[32m  OK  [0m] Started Monitoring of LVM2 mirrors,...ng dmeventd or progress polling.
+[[32m  OK  [0m] Reached target Local File Systems (Pre).
+[[32m  OK  [0m] Reached target Local File Systems.
+         Starting Preprocess NFS configuration...
+         Starting Rebuild Journal Catalog...
+         Starting Create Volatile Files and Directories...
+         Starting Mark the need to relabel after reboot...
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting Commit a transient machine-id on disk...
+[[32m  OK  [0m] Started Mark the need to relabel after reboot.
+[[32m  OK  [0m] Started Commit a transient machine-id on disk.
+[[32m  OK  [0m] Started Preprocess NFS configuration.
+[[32m  OK  [0m] Started Rebuild Journal Catalog.
+         Starting Update is Completed...
+[[32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+         Mounting RPC Pipe File System...
+[    5.545649] RPC: Registered named UNIX socket transport module.
+[    5.545651] RPC: Registered udp transport module.
+[    5.545651] RPC: Registered tcp transport module.
+[    5.545652] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[[32m  OK  [0m] Started Update is Completed.
+[[32m  OK  [0m] Mounted RPC Pipe File System.
+[[32m  OK  [0m] Reached target rpc_pipefs.target.
+[[32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[32m  OK  [0m] Reached target System Initialization.
+[[32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[32m  OK  [0m] Started Flexible branding.
+[[32m  OK  [0m] Reached target Paths.
+[[32m  OK  [0m] Listening on RPCbind Server Activation Socket.
+[[32m  OK  [0m] Reached target Sockets.
+[    5.691560] xfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)
+[    5.691905] xfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)
+         Starting RPC bind service...
+[[32m  OK  [0m] Reached target Basic System.
+         Starting NTP client/server...
+         Starting ACPI Event Daemon...
+[[32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Login Service...
+         Starting Dump dmesg to /var/log/dmesg...
+[[32m  OK  [0m] Started irqbalance daemon.
+[[32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+         Starting GSSAPI Proxy Daemon...
+         Starting Initial cloud-init job (pre-networking)...
+         Starting Resets System Activity Logs...
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+[[32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[32m  OK  [0m] Reached target Timers.
+[[32m  OK  [0m] Started RPC bind service.
+[[32m  OK  [0m] Started NTP client/server.
+[[32m  OK  [0m] Started ACPI Event Daemon.
+[[32m  OK  [0m] Started Dump dmesg to /var/log/dmesg.
+[[32m  OK  [0m] Started Resets System Activity Logs.
+[[32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[32m  OK  [0m] Started Login Service.
+[[32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[32m  OK  [0m] Started GSSAPI Proxy Daemon.
+[[32m  OK  [0m] Reached target NFS client services.
+[[32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[32m  OK  [0m] Reached target Remote File Systems.
+[    5.794162] cloud-init[2625]: Cloud-init v. 19.3-46.amzn2 running 'init-local' at Fri, 06 Jan 2023 19:32:48 +0000. Up 5.75 seconds.
+[[32m  OK  [0m] Started Initial cloud-init job (pre-networking).
+[[32m  OK  [0m] Reached target Network (Pre).
+         Starting LSB: Bring up/down networking...
+[[32m  OK  [0m] Started LSB: Bring up/down networking.
+[[32m  OK  [0m] Reached target Network.
+         Starting Postfix Mail Transport Agent...
+         Starting Initial cloud-init job (metadata service crawler)...
+[    6.913015] cloud-init[2970]: Cloud-init v. 19.3-46.amzn2 running 'init' at Fri, 06 Jan 2023 19:32:49 +0000. Up 6.86 seconds.
+[    6.942416] cloud-init[2970]: ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+[    6.942629] cloud-init[2970]: ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+[    6.942762] cloud-init[2970]: ci-info: | Device |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+[    6.942883] cloud-init[2970]: ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+[    6.943017] cloud-init[2970]: ci-info: |  eth0  | True |          10.0.1.23           | 255.255.255.0 | global | 12:b2:c5:d1:fb:b3 |
+[    6.943143] cloud-init[2970]: ci-info: |  eth0  | True | fe80::10b2:c5ff:fed1:fbb3/64 |       .       |  link  | 12:b2:c5:d1:fb:b3 |
+[    6.943268] cloud-init[2970]: ci-info: |   lo   | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+[    6.943384] cloud-init[2970]: ci-info: |   lo   | True |           ::1/128            |       .       |  host  |         .         |
+[    6.943503] cloud-init[2970]: ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+[    6.943616] cloud-init[2970]: ci-info: ++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++
+[    6.943738] cloud-init[2970]: ci-info: +-------+-----------------+----------+-----------------+-----------+-------+
+[    6.943856] cloud-init[2970]: ci-info: | Route |   Destination   | Gateway  |     Genmask     | Interface | Flags |
+[    6.943973] cloud-init[2970]: ci-info: +-------+-----------------+----------+-----------------+-----------+-------+
+[    6.944090] cloud-init[2970]: ci-info: |   0   |     0.0.0.0     | 10.0.1.1 |     0.0.0.0     |    eth0   |   UG  |
+[    6.944212] cloud-init[2970]: ci-info: |   1   |     10.0.1.0    | 0.0.0.0  |  255.255.255.0  |    eth0   |   U   |
+[    6.944326] cloud-init[2970]: ci-info: |   2   | 169.254.169.254 | 0.0.0.0  | 255.255.255.255 |    eth0   |   UH  |
+[    6.944444] cloud-init[2970]: ci-info: +-------+-----------------+----------+-----------------+-----------+-------+
+[    6.944566] cloud-init[2970]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+[    6.944686] cloud-init[2970]: ci-info: +-------+-------------+---------+-----------+-------+
+[    6.944803] cloud-init[2970]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+[    6.944920] cloud-init[2970]: ci-info: +-------+-------------+---------+-----------+-------+
+[    6.945037] cloud-init[2970]: ci-info: |   9   |  fe80::/64  |    ::   |    eth0   |   U   |
+[    6.945153] cloud-init[2970]: ci-info: |   11  |    local    |    ::   |    eth0   |   U   |
+[    6.945285] cloud-init[2970]: ci-info: |   12  |  multicast  |    ::   |    eth0   |   U   |
+[    6.945403] cloud-init[2970]: ci-info: +-------+-------------+---------+-----------+-------+
+[[32m  OK  [0m] Started Postfix Mail Transport Agent.
+         Starting Hostname Service...
+[    8.451074] xfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)
+[    8.469030] xfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)
+[[32m  OK  [0m] Started Hostname Service.
+[[32m  OK  [0m] Started Initial cloud-init job (metadata service crawler).
+         Starting OpenSSH Server Key Generation...
+[[32m  OK  [0m] Reached target Network is Online.
+[[32m  OK  [0m] Started amazon-ssm-agent.
+         Starting Notify NFS peers of a restart...
+         Starting Finds and configures elastic network interfaces...
+         Starting Dynamically Generate Message Of The Day...
+         Starting System Logging Service...
+[[32m  OK  [0m] Reached target Cloud-config availability.
+         Starting Apply the settings specified in cloud-config...
+         Starting Permit User Sessions...
+[[32m  OK  [0m] Started Notify NFS peers of a restart.
+[[32m  OK  [0m] Started Permit User Sessions.
+[[32m  OK  [0m] Started Finds and configures elastic network interfaces.
+[[32m  OK  [0m] Started System Logging Service.
+[[32m  OK  [0m] Started Command Scheduler.
+         Starting Wait for Plymouth Boot Screen to Quit...
+         Starting Terminate Plymouth Boot Screen...
+[[32m  OK  [0m] Started Job spooling tools.
+[    9.085069] cloud-init[3128]: Cloud-init v. 19.3-46.amzn2 running 'modules:config' at Fri, 06 Jan 2023 19:32:51 +0000. Up 8.95 seconds.
+2023/01/06 19:32:52Z: Amazon SSM Agent v3.1.1732.0 is running
+2023/01/06 19:32:52Z: OsProductName: Amazon Linux
+2023/01/06 19:32:52Z: OsVersion: 2
+[   10.144421] cloud-init[3128]: Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+[   10.181627] cloud-init[3128]: Existing lock /var/run/yum.pid: another copy is running as pid 3198.
+[   10.196037] cloud-init[3128]: Another app is currently holding the yum lock; waiting for it to exit...
+[   10.210867] cloud-init[3128]: The other application is: yum
+[   10.222766] cloud-init[3128]: Memory :  33 M RSS (324 MB VSZ)
+[   10.234787] cloud-init[3128]: Started: Fri Jan  6 19:32:50 2023 - 00:03 ago
+[   10.242739] cloud-init[3128]: State  : Running, pid: 3198
+[   12.198604] cloud-init[3128]: Another app is currently holding the yum lock; waiting for it to exit...
+[   12.210848] cloud-init[3128]: The other application is: yum
+[   12.218448] cloud-init[3128]: Memory :  92 M RSS (385 MB VSZ)
+[   12.228080] cloud-init[3128]: Started: Fri Jan  6 19:32:50 2023 - 00:05 ago
+[   12.239320] cloud-init[3128]: State  : Running, pid: 3198
+[   14.201216] cloud-init[3128]: Another app is currently holding the yum lock; waiting for it to exit...
+[   14.210738] cloud-init[3128]: The other application is: yum
+[   14.218383] cloud-init[3128]: Memory :  89 M RSS (381 MB VSZ)
+[   14.226675] cloud-init[3128]: Started: Fri Jan  6 19:32:50 2023 - 00:07 ago
+[   14.236116] cloud-init[3128]: State  : Running, pid: 3198
+
+Amazon Linux 2
+Kernel 5.10.157-139.675.amzn2.x86_64 on an x86_64
+
+ip-10-0-1-23 login: [   16.203232] cloud-init[3128]: Another app is currently holding the yum lock; waiting for it to exit...
+[   16.214707] cloud-init[3128]: The other application is: yum
+[   16.222655] cloud-init[3128]: Memory : 194 M RSS (486 MB VSZ)
+[   16.230651] cloud-init[3128]: Started: Fri Jan  6 19:32:50 2023 - 00:09 ago
+[   16.242817] cloud-init[3128]: State  : Running, pid: 3198
+[   18.206082] cloud-init[3128]: Another app is currently holding the yum lock; waiting for it to exit...
+[   18.221062] cloud-init[3128]: The other application is: yum
+[   18.231854] cloud-init[3128]: Memory : 174 M RSS (466 MB VSZ)
+[   18.243238] cloud-init[3128]: Started: Fri Jan  6 19:32:50 2023 - 00:11 ago
+[   18.257123] cloud-init[3128]: State  : Running, pid: 3198
+[   21.287717] cloud-init[3128]: No packages needed for security; 0 packages available
+[   21.294709] cloud-init[3128]: No packages marked for update
+[   21.854925] cloud-init[3240]: Cloud-init v. 19.3-46.amzn2 running 'modules:final' at Fri, 06 Jan 2023 19:33:04 +0000. Up 21.79 seconds.
+[   22.334549] cloud-init[3240]: Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+[   22.595356] cloud-init[3240]: Resolving Dependencies
+[   22.599718] cloud-init[3240]: --> Running transaction check
+[   22.603984] cloud-init[3240]: ---> Package httpd.x86_64 0:2.4.54-1.amzn2 will be installed
+[   22.653256] cloud-init[3240]: --> Processing Dependency: httpd-tools = 2.4.54-1.amzn2 for package: httpd-2.4.54-1.amzn2.x86_64
+[   22.922357] cloud-init[3240]: --> Processing Dependency: httpd-filesystem = 2.4.54-1.amzn2 for package: httpd-2.4.54-1.amzn2.x86_64
+[   22.937037] cloud-init[3240]: --> Processing Dependency: system-logos-httpd for package: httpd-2.4.54-1.amzn2.x86_64
+[   22.949130] cloud-init[3240]: --> Processing Dependency: mod_http2 for package: httpd-2.4.54-1.amzn2.x86_64
+[   22.978615] cloud-init[3240]: --> Processing Dependency: httpd-filesystem for package: httpd-2.4.54-1.amzn2.x86_64
+[   22.995285] cloud-init[3240]: --> Processing Dependency: /etc/mime.types for package: httpd-2.4.54-1.amzn2.x86_64
+[   23.001459] cloud-init[3240]: --> Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.54-1.amzn2.x86_64
+[   23.018610] cloud-init[3240]: --> Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.54-1.amzn2.x86_64
+[   23.038619] cloud-init[3240]: --> Running transaction check
+[   23.050635] cloud-init[3240]: ---> Package apr.x86_64 0:1.7.0-9.amzn2 will be installed
+[   23.062640] cloud-init[3240]: ---> Package apr-util.x86_64 0:1.6.1-5.amzn2.0.2 will be installed
+[   23.074640] cloud-init[3240]: --> Processing Dependency: apr-util-bdb(x86-64) = 1.6.1-5.amzn2.0.2 for package: apr-util-1.6.1-5.amzn2.0.2.x86_64
+[   23.098348] cloud-init[3240]: ---> Package generic-logos-httpd.noarch 0:18.0.0-4.amzn2 will be installed
+[   23.114690] cloud-init[3240]: ---> Package httpd-filesystem.noarch 0:2.4.54-1.amzn2 will be installed
+[   23.134365] cloud-init[3240]: ---> Package httpd-tools.x86_64 0:2.4.54-1.amzn2 will be installed
+[   23.147130] cloud-init[3240]: ---> Package mailcap.noarch 0:2.1.41-2.amzn2 will be installed
+[   23.156965] cloud-init[3240]: ---> Package mod_http2.x86_64 0:1.15.19-1.amzn2.0.1 will be installed
+[   23.189408] cloud-init[3240]: --> Running transaction check
+[   23.196033] cloud-init[3240]: ---> Package apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2 will be installed
+[   23.532633] cloud-init[3240]: --> Finished Dependency Resolution
+[   23.568007] cloud-init[3240]: Dependencies Resolved
+[   23.585611] cloud-init[3240]: ================================================================================
+[   23.610410] cloud-init[3240]: Package                Arch      Version                   Repository     Size
+[   23.621329] cloud-init[3240]: ================================================================================
+[   23.633105] cloud-init[3240]: Installing:
+[   23.636899] cloud-init[3240]: httpd                  x86_64    2.4.54-1.amzn2            amzn2-core    1.4 M
+[   23.655743] cloud-init[3240]: Installing for dependencies:
+[   23.675464] cloud-init[3240]: apr                    x86_64    1.7.0-9.amzn2             amzn2-core    122 k
+[   23.688004] cloud-init[3240]: apr-util               x86_64    1.6.1-5.amzn2.0.2         amzn2-core     99 k
+[   23.701633] cloud-init[3240]: apr-util-bdb           x86_64    1.6.1-5.amzn2.0.2         amzn2-core     19 k
+[   23.709610] cloud-init[3240]: generic-logos-httpd    noarch    18.0.0-4.amzn2            amzn2-core     19 k
+[   23.716417] cloud-init[3240]: httpd-filesystem       noarch    2.4.54-1.amzn2            amzn2-core     24 k
+[   23.724178] cloud-init[3240]: httpd-tools            x86_64    2.4.54-1.amzn2            amzn2-core     88 k
+[   23.735218] cloud-init[3240]: mailcap                noarch    2.1.41-2.amzn2            amzn2-core     31 k
+[   23.749957] cloud-init[3240]: mod_http2              x86_64    1.15.19-1.amzn2.0.1       amzn2-core    149 k
+[   23.757385] cloud-init[3240]: Transaction Summary
+[   23.762239] cloud-init[3240]: ================================================================================
+[   23.770676] cloud-init[3240]: Install  1 Package (+8 Dependent packages)
+[   23.776734] cloud-init[3240]: Total download size: 1.9 M
+[   23.781696] cloud-init[3240]: Installed size: 5.2 M
+[   23.786375] cloud-init[3240]: Downloading packages:
+[   24.132736] cloud-init[3240]: --------------------------------------------------------------------------------
+[   24.149683] cloud-init[3240]: Total                                              7.6 MB/s | 1.9 MB  00:00
+[   24.159680] cloud-init[3240]: Running transaction check
+[   24.180918] cloud-init[3240]: Running transaction test
+[   24.304175] cloud-init[3240]: Transaction test succeeded
+[   24.310343] cloud-init[3240]: Running transaction
+[   24.983173] cloud-init[3240]: Installing : apr-1.7.0-9.amzn2.x86_64                                     1/9
+[   25.027180] cloud-init[3240]: Installing : apr-util-bdb-1.6.1-5.amzn2.0.2.x86_64                        2/9
+[   25.085459] cloud-init[3240]: Installing : apr-util-1.6.1-5.amzn2.0.2.x86_64                            3/9
+[   25.163596] cloud-init[3240]: Installing : httpd-tools-2.4.54-1.amzn2.x86_64                            4/9
+[   25.194736] cloud-init[3240]: Installing : httpd-filesystem-2.4.54-1.amzn2.noarch                       5/9
+[   25.237813] cloud-init[3240]: Installing : generic-logos-httpd-18.0.0-4.amzn2.noarch                    6/9
+[   25.280673] cloud-init[3240]: Installing : mailcap-2.1.41-2.amzn2.noarch                                7/9
+[   25.533537] cloud-init[3240]: Installing : mod_http2-1.15.19-1.amzn2.0.1.x86_64                         8/9
+[   25.709986] cloud-init[3240]: Installing : httpd-2.4.54-1.amzn2.x86_64                                  9/9
+[   25.740447] cloud-init[3240]: Verifying  : apr-util-1.6.1-5.amzn2.0.2.x86_64                            1/9
+[   25.760820] cloud-init[3240]: Verifying  : apr-util-bdb-1.6.1-5.amzn2.0.2.x86_64                        2/9
+[   25.783470] cloud-init[3240]: Verifying  : httpd-tools-2.4.54-1.amzn2.x86_64                            3/9
+[   25.796347] cloud-init[3240]: Verifying  : mod_http2-1.15.19-1.amzn2.0.1.x86_64                         4/9
+[   25.805653] cloud-init[3240]: Verifying  : httpd-2.4.54-1.amzn2.x86_64                                  5/9
+[   25.822371] cloud-init[3240]: Verifying  : mailcap-2.1.41-2.amzn2.noarch                                6/9
+[   25.839725] cloud-init[3240]: Verifying  : generic-logos-httpd-18.0.0-4.amzn2.noarch                    7/9
+[   25.855788] cloud-init[3240]: Verifying  : httpd-filesystem-2.4.54-1.amzn2.noarch                       8/9
+[   25.973518] cloud-init[3240]: Verifying  : apr-1.7.0-9.amzn2.x86_64                                     9/9
+[   25.985137] cloud-init[3240]: Installed:
+[   25.998617] cloud-init[3240]: httpd.x86_64 0:2.4.54-1.amzn2
+[   26.014662] cloud-init[3240]: Dependency Installed:
+[   26.026332] cloud-init[3240]: apr.x86_64 0:1.7.0-9.amzn2
+[   26.042694] cloud-init[3240]: apr-util.x86_64 0:1.6.1-5.amzn2.0.2
+[   26.054642] cloud-init[3240]: apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2
+[   26.070342] cloud-init[3240]: generic-logos-httpd.noarch 0:18.0.0-4.amzn2
+[   26.086678] cloud-init[3240]: httpd-filesystem.noarch 0:2.4.54-1.amzn2
+[   26.097770] cloud-init[3240]: httpd-tools.x86_64 0:2.4.54-1.amzn2
+[   26.122956] cloud-init[3240]: mailcap.noarch 0:2.1.41-2.amzn2
+[   26.135682] cloud-init[3240]: mod_http2.x86_64 0:1.15.19-1.amzn2.0.1
+[   26.146165] cloud-init[3240]: Complete!
+[   26.159855] cloud-init[3240]: Created symlink from /etc/systemd/system/multi-user.target.wants/httpd.service to /usr/lib/systemd/system/httpd.service.
+[   27.507354] xfs filesystem being remounted at /tmp supports timestamps until 2038 (0x7fffffff)
+[   27.546993] xfs filesystem being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)
+[   26.378835] cloud-init[3240]: /var/lib/cloud/instance/scripts/part-001: line 5: syntax error near unexpected token `<'
+ci-info: +++Authorized keys from /home/ec2-user/.ssh/authorized_keys for user ec2-user++++
+[   26.418685] cloud-init[3240]: /var/lib/cloud/instance/scripts/part-001: line 5: `echo ’<html><h1>Hello From Your Web Server!</h1></html>’>/var/www/html/index.html'
+ci-info: +---------+-------------------------------------------------+---------+---------+
+ci-info: | Keytype |                Fingerprint (md5)                | Options | Comment |
+[   26.468600] cloud-init[3240]: Jan 06 19:33:09 cloud-init[3240]: util.py[WARNING]: Failed running /var/lib/cloud/instance/scripts/part-001 [2]
+ci-info: +---------+-------------------------------------------------+---------+---------+
+[   26.498966] cloud-init[3240]: Jan 06 19:33:09 cloud-init[3240]: cc_scripts_user.py[WARNING]: Failed to run module scripts-user (scripts in /var/lib/cloud/instance/scripts)
+ci-info: | ssh-rsa | 57:89:71:2b:c8:47:29:39:f6:c2:27:f9:64:11:6e:61 |    -    |  anamcl |
+ci-info: +---------+-------------------------------------------------+---------+---------+
+[   26.539799] cloud-init[3240]: Jan 06 19:33:09 cloud-init[3240]: util.py[WARNING]: Running module scripts-user (<module 'cloudinit.config.cc_scripts_user' from '/usr/lib/python2.7/site-packages/cloudinit/config/cc_scripts_user.pyc'>) failed
+<14>Jan  6 19:33:09 ec2: 
+<14>Jan  6 19:33:09 ec2: #############################################################
+<14>Jan  6 19:33:09 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+<14>Jan  6 19:33:09 ec2: 256 SHA256:VXO7RnJ1WsMtsmEqfIWVB1cZWxfgMp528X5pI3Am3Hs no comment (ECDSA)
+<14>Jan  6 19:33:09 ec2: 256 SHA256:myx8WzCZdWd/mUnEsQzAbg7apfc9GHMNTKqROX0tMpU no comment (ED25519)
+<14>Jan  6 19:33:09 ec2: 2048 SHA256:aGDD3PfOvIFCF7sFZ4nYTzul3ah++C68r6EUHd7A7GM no comment (RSA)
+<14>Jan  6 19:33:09 ec2: -----END SSH HOST KEY FINGERPRINTS-----
+<14>Jan  6 19:33:09 ec2: #############################################################
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNfzGeu3NBEZLxSwJ24ReZONCqu8qeZ2ryzwNNg2c9lpQwHUet3ckRZ35kNtURMBAh7RHoHzJCN5qm7Vz0HcEwI= 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGC21XTgl3KPlfRM+FHrd6SFchps1lMQZjjFp2loYNvu 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXUzVsyVggxe3uzNH4B34Yz14onK9WutPUkeJHVjYIsBcMXtyvuFcqHDK1oUVVTbokD5QkbwreSv/EzO+Bwn5vOr9j6yTgYJ6KOyVJK2ZqyB7/4HRuuP7mqW5mtOEj4sNoWlH0B2+EAxVMElMNr75ZEHGEu817NVg2VUCrMNywfZkGuc86JgRJ4EdrywWFhL0jGgtCsvya8kxtGx/u/XWRaWIqQg9DLJ/KpLU3KPC/dYL4HYT0EhRmr3FHGNNDEX12lkQtMYDcYwpRb087vhNZ93IOE2XnEFkPSMq2Ln6ojO/IBDjKir/lnNcnXLnkPWxAM6MZyovTRR+0k8maTERP 
+-----END SSH HOST KEY KEYS-----
+[   26.890839] cloud-init[3240]: Cloud-init v. 19.3-46.amzn2 finished at Fri, 06 Jan 2023 19:33:09 +0000. Datasource DataSourceEc2.  Up 26.88 seconds
